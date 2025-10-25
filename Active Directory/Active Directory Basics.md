@@ -4,7 +4,7 @@ Active Directory is a Microsoft directory service that enables administrators to
 
 ---
 ## Active Directory Domain Services Installation
-![Screenshot](images/1.png)
+<img src="https://github.com/MahTimbs/repo/blob/main/Active%20Directory/images/1.png?raw=true" width="400" />
 
 1. Open **Server Manager**
 2. Click **Next**
