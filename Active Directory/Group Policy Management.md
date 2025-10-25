@@ -32,7 +32,7 @@ You would do this to enforce strong passwords to help prevent security breaches
 
 ---
 ## Configuring Password Policies
-1. Go to **Computer Configuration** > **Windows Settings** > **Security Settings**
+1. Go to **Computer Configuration** > **Policies** > **Windows Settings** > **Security Settings**
 2. Cick on **Account Policies** > **Password Policy**
 3. Configure:
   - **Minimum password length** - Define the policy and change
