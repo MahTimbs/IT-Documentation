@@ -1,5 +1,5 @@
 ## Group Policy
-Group Policy Objects are a collection of settings used to anage and configure users and computers in Active Directory. It enables admininstrators to configure and manage the settings of multiple computers without having to do so individually. 
+Group Policy Objects are a collection of settings used to manage and configure users and computers in Active Directory. It enables admininstrators to configure and manage the settings of multiple computers without having to do so individually. 
 
 ---
 ## How it Works
