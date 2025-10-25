@@ -18,20 +18,17 @@ Active Directory is a Micrsoft directory service that enables administrators to 
 ## Creating an OU in Active Directory
 ---
 ## The Attribute Editor
---
-# Creating Groups in Active Directory
-## Group Scope
-## Group Type
-## Adding Members to the Group
-## Verifying Group Membership
 ---
-## How to Rest Passwords
+## Creating Groups in Active Directory
+### Group Scope
+### Group Type
+### Adding Members to the Group
+### Verifying Group Membership
 ---
-## How to Unlock a Users account
----
-## Disabling and Enabling a Users Account
----
-## Fixing an Expired Account
----
+## Account Management
+### How to Rest Passwords
+### How to Unlock a Users account
+### Disabling and Enabling a Users Account
+### Fixing an Expired Account
 
 
