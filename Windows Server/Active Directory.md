@@ -1,6 +1,6 @@
 ## What is Active Directory
 
-Active Directory is a Micrsoft directory service that enables administrators to centrally manage a companies users, computers, and other network resources. It used to control access to resources and enforce security policies.
+Active Directory is a Micrsoft directory service that enables administrators to centrally manage a companies users, computers, and other network resources. It is used to control access to resources and enforce security policies.
 
 ---
 ## Active Directory Domain Services Installation
@@ -9,9 +9,9 @@ Active Directory is a Micrsoft directory service that enables administrators to 
 ---
 ## Showing More Details About a User
 ---
-## How to Find a User, Contact, and Groups in Active Directory
+## How to Find a User, Contact, or Groups in Active Directory
 ---
-## Enable Recycle Bin in Active Directory
+## Enabling Recycle Bin in Active Directory
 ---
 ## Creating an account with the Copy Method
 ---
