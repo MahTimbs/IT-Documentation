@@ -108,7 +108,7 @@ Shows you everything you need to know about the gpupdate command
 Shows applied policies for the user and Computer
 
 - gpresult /h
-Saves a detaieled report in HTML format
+Saves a detailed report in HTML format
 
 - gpupdate /force
 forces group policies to apply on a device or set computers on the same network
