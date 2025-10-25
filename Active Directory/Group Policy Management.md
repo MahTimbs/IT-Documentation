@@ -27,7 +27,7 @@ You would do this to enforce strong passwords to help prevent security breaches
 
 ---
 ## Policies vs Preferences
-- **Policies** cannot be change by users they are set in stone.
+- **Policies** cannot be changed by users they are set in stone.
 - **Preferences** can be changed by users
 
 ---
