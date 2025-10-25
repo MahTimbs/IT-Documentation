@@ -1,4 +1,4 @@
-## What is Active Directory
+## What is Active Directory?
 
 Active Directory is a Micrsoft directory service that enables administrators to centrally manage a companies users, computers, and other network resources. It is used to control access to resources and enforce security policies.
 
