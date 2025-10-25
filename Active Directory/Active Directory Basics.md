@@ -127,7 +127,7 @@ In order to view additional features
 3. Type the name of the user and find the name
 4. Right-click on the user > **Reset Password**
 5. Enter the new password and confirm it
-   
+---   
 ### How to Unlock a User’s Account
 <img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Active%20Directory/images/12.png?raw=true" height="800" width="600" />
 
@@ -135,13 +135,13 @@ In order to view additional features
 2. Go to the **Account** tab
 3. Check **Unlock Account**
 4. Click **Apply** and **OK**
-   
+---   
 ### Disabling and Enabling a User’s Account
 <img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Active%20Directory/images/13.png?raw=true" height="800" width="600" />
 
 1. Right-click on the user profile and select **Disable**
 2. To **Enable** the account do the same thing, but select **Enable**
-   
+---   
 ### Fixing an Expired Account
 <img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Active%20Directory/images/14.png?raw=true" height="800" width="600" />
 
@@ -149,7 +149,7 @@ In order to view additional features
 2. Go to the **Account** tab
 3. Look for **Account Expires**
 4. Reset the end date to what the company mandates.
-   
+---   
 ### Moving a User to a Different OU
 <img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Active%20Directory/images/15.png?raw=true" height="800" width="600" />
 
