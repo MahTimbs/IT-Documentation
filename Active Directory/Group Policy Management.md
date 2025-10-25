@@ -7,18 +7,21 @@ Group Policy Objects are a collection of settings used to manage and configure u
 - **GPO**s contain the rules and settings
 - They are linked to AD and then are applied to users and computers
 - When a user logs in or if the computer starts, it will scan for the policies and apply them
+
   
 ---
 ## Group Policy Management tool
 1. From the **Server Manager** go to **Tools** and click on **Group Policy Management**
 2. You can create a GPO by navigating to the desired domain or OU, right clicking on it, and selecting **Create a GPO in this domain**
 3. You can also simply right click on the the **Group Policy Objects** container and select **New**
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Active%20Directory/images/16.png?raw=true" height="800" width="600" />
 
 ---
 ## Creating a GPO (e.g. for a Password Policy)
 You would do this to enforce strong passwords to help prevent security breaches
 1. Name the **GPO**
 2. Right click and then click **Edit** to configure settings
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Active%20Directory/images/17.png?raw=true" height="800" width="600" />
 
 ---
 ## Computer configuration vs User configuration
@@ -38,6 +41,7 @@ You would do this to enforce strong passwords to help prevent security breaches
   - **Minimum password length** - Define the policy and change
   - **Password must meet complexity requirements** - Enable
   - **Maximum password age** - Set to 90 days
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Active%20Directory/images/18.png?raw=true" height="800" width="600" />
 
 ---
 ## Configuring Account Lockout Policies
@@ -45,6 +49,7 @@ Prevents bruce force attacks
 1. Click on **Account Policies** > **Account Lockout Policy**
 2. Define:
    - **Account lockout duration** - Define this policy setting > Change > Apply > Ok
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Active%20Directory/images/19.png?raw=true" height="800" width="600" />
 
 ---
 ## Other Group Policy Examples (Drive Mapping & Desktop Wallpaper)
@@ -53,12 +58,15 @@ Prevents bruce force attacks
 1. Create the GPO from the domain or create a new GPO object (you will have to link to an OU)
 2. Name it **Drive Mapping**
 3. Right click on this new GPO and click **Edit**
-4. Navigate to:
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Active%20Directory/images/20.png?raw=true" height="800" width="600" />
+
+5. Navigate to:
    - **User Configuration** > **Preferences** > **Drive Maps**
    - Right click and choose **New** > **Mapped Drive**
-5. Configuration:
+6. Configuration:
    - **Location**: (e.g., \\STLab\ShareFolder)
    - **Use**: Set to available (which ever drive letter you want)
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Active%20Directory/images/21.png?raw=true" height="800" width="600" />
 
 ---
 ### Desktop Wallpaper Policy
@@ -72,6 +80,7 @@ Prevents bruce force attacks
    - Set to **Enabled**
    - **Wallpaper Name**: Provide full path to the wallpaper
    - **Wallpaper Style**: Choose **Center** or **Fill**
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Active%20Directory/images/22.png?raw=true" height="800" width="600" />
 
 ---
 ## More Group Policy examples (Control Panel & USB Storage Restrictions)
@@ -84,6 +93,7 @@ Prevents users from accessing the control panel
 4. Double click on:
    - **Prohibit access to Control Panel and PC Settings**
 5. Set it to **Enabled**
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Active%20Directory/images/23.png?raw=true" height="800" width="600" />
 
 ---
 ### Disable USB Storage
@@ -95,6 +105,7 @@ Prevents users from using USB storage devices
 4. Double click on:
    - **All Removable Storage classes: Deny all access**
 5. Set it to **Enabled**
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Active%20Directory/images/24.png?raw=true" height="800" width="600" />
 
 ---
 ## Group policy CMD commands
@@ -123,10 +134,15 @@ Shows which policies have actually been applied to a user or computer
 5. Type in the computer name
 6. Then you will select the specific user
 7. Click **Next** until you press finish
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Active%20Directory/images/25.png?raw=true" height="800" width="600" />
 
+---
 ## RSOP
 Also shows the policies that have been applied to a user or computer
 1. Right click on a user
 2. Go to **All Tasks**
 3. Click on **Resultant Set of Policy (Logging)**
 4. You can follow the same steps as done from the **Group Policy Results Wizard**
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Active%20Directory/images/26.png?raw=true" height="800" width="600" />
+
+---
