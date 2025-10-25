@@ -27,7 +27,7 @@ Active Directory is a Micrsoft directory service that enables administrators to 
 5. Click **Finish**
 ---
 ## Showing More Details About a User
-In order to view aditional features 
+In order to view additional features 
 - Right click on **View**
 - Scroll down to **Advanced Features** and check it. 
 ---
