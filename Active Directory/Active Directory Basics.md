@@ -4,6 +4,7 @@ Active Directory is a Microsoft directory service that enables administrators to
 
 ---
 ## Active Directory Domain Services Installation
+![Screenshot](images/1.pngj)
 1. Open **Server Manager**
 2. Click **Next**
 3. Select **Role-based or feature-based installation**
