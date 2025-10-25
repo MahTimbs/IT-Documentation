@@ -98,20 +98,35 @@ Prevents users from using USB storage devices
 
 ---
 ## Group policy CMD commands
-- gpresult /f > C:/results.txt
-This creates a file containing the group policy of the computer
+- **gpresult /f > C:/results.txt**
+  This creates a file containing the group policy of the computer
 
-- gpupdate /help
-Shows you everything you need to know about the gpupdate command
+- **gpupdate /help**
+  Shows you everything you need to know about the gpupdate command
 
-- gpresult /r
-Shows applied policies for the user and Computer
+- **gpresult /r**
+  Shows applied policies for the user and Computer
 
-- gpresult /h
-Saves a detailed report in HTML format
+- **gpresult /h gpreport.html**
+  Saves a detailed report in HTML format
 
-- gpupdate /force
-forces group policies to apply on a device or set computers on the same network
+- **gpupdate /force**
+  forces group policies to apply on a device or set computers on the same network
 
 ---
+## Group Policy Results Wizard
+Shows which policies have actually been applied to a user or computer
+1. Right click on **Group Policy Results**
+2. Click on **Group Policy Results Wizard**
+3. Click **Next**
+4. Select either **This computer** or **Another Computer** (will have to click browse)
+5. Type in the computer name
+6. Then you will select the specific user
+7. Click **Next** until you press finish
 
+## RSOP
+Also shows the policies that have been applied to a user or computer
+1. Right click on a user
+2. Go to **All Tasks**
+3. Click on **Resultant Set of Policy (Logging)**
+4. You can follow the same steps as done from the **Group Policy Results Wizard**
