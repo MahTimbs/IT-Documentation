@@ -49,7 +49,7 @@ Prevents bruce force attacks
 ---
 ## Other Group Policy Examples (Drive Mapping & Desktop Wallpaper)
 ### Drive Mapping
-- You map drives for users to they have access to them when they log in. This can be done with a GPO
+- You map drives for users so they have access to them when they log in. This can be done with a GPO
 1. Create the GPO from the domain or create a new GPO object (you will have to link to an OU)
 2. Name it **Drive Mapping**
 3. Right click on this new GPO and click **Edit**
