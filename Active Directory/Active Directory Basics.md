@@ -33,7 +33,7 @@ In order to view aditional features
 ---
 ## How to Find a User, Contact, or Groups in Active Directory
 1. Go to **Active Directory Users and Computers**
-2. In the left panel, select your domain
+2. In the left panel, right click your domain
 3. Go to the **Find** option
 4. Select the object type (User, Contact, or Group)
 5. Set the location to **Entire Directory**
@@ -43,7 +43,7 @@ In order to view aditional features
 ## Enabling Recycle Bin in Active Directory
 1. Go to the **Active Directory Administrative Center**
 2. Select your **Domain Name**
-3. On the right-hand pane, look for enable Recycle Bin for Domain Level
+3. On the right-hand pane, look for **enable Recycle Bin for Domain Level**
 4. Click to enable
 ---
 ## Creating an account with the Copy Method
@@ -65,7 +65,7 @@ In order to view aditional features
 2. Click **View** > Enable **Advanced Features**
 3. Navigate to the desired object (User, Computer, Group)
 4. Right-click the object and select **Properties**
-5. Go to the **Attrivute Editor** tab
+5. Go to the **Attribute Editor** tab
 ---
 ## Creating Groups in Active Directory
 ### Group Scope
@@ -107,6 +107,6 @@ In order to view aditional features
 3. Look for **Account Expires**
 4. Reset the end date to what the company mandates.
 ### Moving a User to a Different OU
-- Right click on the user > Click on **Move** > Select the OU
+- Right click on the user > Click on **Move** > Select the container
 
 
