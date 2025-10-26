@@ -58,11 +58,11 @@ Prevents bruce force attacks
 1. Create the GPO from the domain or create a new GPO object (you will have to link to an OU)
 2. Name it **Drive Mapping**
 3. Right click on this new GPO and click **Edit**
-<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Active%20Directory/images/20.png?raw=true" height="800" width="600" />
-
 5. Navigate to:
    - **User Configuration** > **Preferences** > **Drive Maps**
    - Right click and choose **New** > **Mapped Drive**
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Active%20Directory/images/20.png?raw=true" height="800" width="600" />
+
 6. Configuration:
    - **Location**: (e.g., \\STLab\ShareFolder)
    - **Use**: Set to available (which ever drive letter you want)
