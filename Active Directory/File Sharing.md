@@ -8,7 +8,7 @@ A mapped drive is a shortcut that assigns a dive letter (like Z: or G:) to a net
 3. Tap on **Shares** → **New Share**
 4. Choose **SMB Share - Quick** → Click on it and click **Next**
 5. Select **Share location** → Click **Next**
-6. Enter **Share name** (e.g., `HR` or `Sales`) → Click **Next**
+6. Enter **Share name** (e.g., `HR2` or `Sales`) → Click **Next**
 7. Configure **Other Settings** → Click **Next**
 8. Set **Permissions** → Confirm and click **Create**
 ---
@@ -33,9 +33,9 @@ A mapped drive is a shortcut that assigns a dive letter (like Z: or G:) to a net
 1. **Log into the user computer**
 2. Navigate to **File Explorer** → **This PC**
 3. Type in the search bar the UNC path:
-- Log into the User Computer → Navigated to File Explorer → This PC → If the User has been mapped to a drive before, try to confirm the path `\\Server2022\hr`
+- Log into the User Computer → Navigated to File Explorer → This PC → If the User has been mapped to a drive before, try to confirm the path `\\STLab\HR2`
 
-- This PC → Right click on it → Select **Map network drive** and select a drive (Z: or any letter based on available drive in the Company) → Folder (Type the path, `\\Server2022\hr` and finish)
+- This PC → Right click on it → Select **Map network drive** and select a drive (Z: or any letter based on available drive in the Company) → Folder (Type the path, `\\STLab\HR2` and finish)
 - The **Reconnect** automatically maps the drive as the user logins.
 ---
 ## Mapping the Drive with Active Directory
