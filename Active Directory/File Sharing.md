@@ -41,7 +41,7 @@ A mapped drive is a shortcut that assigns a dive letter (like Z: or G:) to a net
 ## Mapping the Drive with Active Directory
 1. Find the User in AD
 2. Go to Profile > Home Folder > Connect
-3. Type in the network path \\Server2022\hr\%username%
+3. Type in the network path \\STLab\HR2\%username%
 4. This maps the drive based on the username
 ---
 ## Mapping Drives using Group Policy
