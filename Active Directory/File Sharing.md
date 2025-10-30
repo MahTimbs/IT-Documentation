@@ -47,7 +47,7 @@ A mapped drive is a shortcut that assigns a dive letter (like Z: or G:) to a net
 ## Mapping Drives using Group Policy
 1. Create a New Group
 Example: Financial Group in Active Directory.
-Add users to the group
+- Add users to the group
 2. **Navigate to the Server**
    - Go to: `File & Storage Services`.
    - Right-click on `Shares` → `New Share`.
