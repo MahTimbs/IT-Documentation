@@ -1,7 +1,7 @@
 # File Sharing
 ## Drive Mapping
+
 A mapped drive is a shortcut that assigns a dive letter (like Z: or G:) to a network folder or location, making it appear as if it's a local drive on your computer
----
 ## How to Create a Shared Folder
 1. Go to **Start menu** → Search for **Server Manager**
 2. Navigate to **File and Storage Services**
