@@ -11,6 +11,8 @@ A mapped drive is a shortcut that assigns a dive letter (like Z: or G:) to a net
 6. Enter **Share name** (e.g., `HR2` or `Sales`) → Click **Next**
 7. Configure **Other Settings** → Click **Next**
 8. Set **Permissions** → Confirm and click **Create**
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Active%20Directory/images/27.png?raw=true" height="800" width="600" />
+
 ---
 ## How to Access the Shared Folder
 1. Go to **File Explorer** → **This PC** → **Local Disk (C:)**
@@ -23,11 +25,17 @@ A mapped drive is a shortcut that assigns a dive letter (like Z: or G:) to a net
    - Click **Disable Inheritance**
    - Choose **Convert inherited permissions into explicit permissions on this object**
    - Remove existing users and add groups.
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Active%20Directory/images/28.png?raw=true" height="800" width="600" />
+
 2. Add permissions:
    - Click **Add** → **Select Principal**
    - Enter the username or group → Click **Check Name** → Click **OK**
    - Set **Basic permissions** (e.g., Modify) and click **OK**
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Active%20Directory/images/29.png?raw=true" height="800" width="600" />
+
 3. In the **Sharing** tab click on **Share**, and grant **Read/Write** permissions as needed
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Active%20Directory/images/30.png?raw=true" height="800" width="600" />
+
 ---
 ## Mapping the Drive on a Users PC
 1. **Log into the user computer**
@@ -37,23 +45,31 @@ A mapped drive is a shortcut that assigns a dive letter (like Z: or G:) to a net
 
 - This PC → Right click on it → Select **Map network drive** and select a drive (Z: or any letter based on available drive in the Company) → Folder (Type the path, `\\STLab\HR2` and finish)
 - The **Reconnect** automatically maps the drive as the user logins.
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Active%20Directory/images/31.png?raw=true" height="800" width="600" />
+
 ---
 ## Mapping the Drive with Active Directory
 1. Find the User in AD
 2. Go to Profile > Home Folder > Connect
 3. Type in the network path \\STLab\HR2\%username%
 4. This maps the drive based on the username
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Active%20Directory/images/32.png?raw=true" height="800" width="600" />
+
 ---
 ## Mapping Drives using Group Policy
 1. Create a New Group
 Example: Financial Group in Active Directory.
 - Add users to the group
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Active%20Directory/images/33.png?raw=true" height="800" width="600" />
+
 2. **Navigate to the Server**
    - Go to: `File & Storage Services`.
    - Right-click on `Shares` → `New Share`.
    - Select `SMB Share - Quick`.
    - Share location: `C:\drive` → Click Next.
    - Share name: `FinanceNetworkDrive` → Click Next.
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Active%20Directory/images/35.png?raw=true" height="800" width="600" />
+
 3. **Permissions**
    - Click on `Permissions` → `Customize permissions`.
    - Disable inheritance.
@@ -61,6 +77,8 @@ Example: Financial Group in Active Directory.
    - Click on `Add` → `Select a Principal`.
    - Click `Advanced` → `Find Now` → Select and add `Financial Group`.
    - Click `Apply` and `OK` → Click `Next`.
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Active%20Directory/images/34.png?raw=true" height="800" width="600" />
+
    - **Drive is Now Created**
 ---
 ## Mapping Drive via Group Policy (cont.)
@@ -69,6 +87,8 @@ Example: Financial Group in Active Directory.
 2. Navigate:
    - Forest → Domain
 1. Right-click on `Finance` → Create a GPO linked to `Finance`.
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Active%20Directory/images/36.png?raw=true" height="800" width="600" />
+
 ---
 ### Domain GPO Configuration
 
@@ -76,17 +96,26 @@ Example: Financial Group in Active Directory.
 - Enter the path (directory of the folder) and paste it in the location field.
 - Check `Reconnect` box.
 - Use the whichever available letter (e.g., F: drive).
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Active%20Directory/images/37.png?raw=true" height="800" width="600" />
+
 ---
 ### Item-Level Targeting
 - Go to **Common** tab at the top → Enable **Item-Level Targeting** → Targeting → **Security Groups** → **Advanced**
-- Add the **Financial Group** → Apply & OK. 
+- Add the **Financial Group** → Apply & OK.
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Active%20Directory/images/38.png?raw=true" height="800" width="600" />
+ 
 ---
 ### Testing the GPO
 - Login on a Users account
 - Open Command Line and type:
 gpupdate /force
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Active%20Directory/images/39.png?raw=true" height="800" width="600" />
+
 - Opened **File Explorer**.
 - The mapped drive will be there
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Active%20Directory/images/40.png?raw=true" height="800" width="600" />
+
+---
 
   
 
