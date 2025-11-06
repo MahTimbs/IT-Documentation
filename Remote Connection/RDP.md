@@ -1,10 +1,25 @@
-* RDP (Remote Desktop Protocol) *
----
-RDP is a Microsoft protocol that enables a user to remotly connect to and control another windows computer over a network
+# RDP (Remote Desktop Protocol)
+## RDP is a Microsoft protocol that enables a user to remotely connect to and control another windows computer over a network
 
 Common uses:
 - Troubleshooting problems
 - Configuring systems
 - Conduct Admininstrative tasks
 ---
+## Pre-Connection
+1. Make sure both computers can ping each other (you may need to temporaily disable the firewall to do so)
+2. Make sure they are both on the same network
+## Enabling Remote Connections
+1. Right click on **This PC**, and click on **Properties**
+2. Go to the **About** tab (on Windows 10) and click on **Advanced System Settings**
+3. After you login with an account with admin permissions, go to the **Remote Tab** and enable RDP if necessary.
+4. You can also add additional accounts that can utulize RDP to this computer.
+---
+## Using RDP
+1. Simply search for **Remote Desktop Connection**
+2. Enter in the **name** or **IP address** of the computer you wish to login to
+3. Simply follow through with the prompts
+- You may be asked to disconnect the other user if they are logged in
+- The other user has to accept this
+--- 
 
