@@ -1,5 +1,5 @@
 # TeamViewer
-TeamViewer is a helpful tool used in IT to remoto into and manage user computer it's used for:
+TeamViewer is a helpful tool used in IT to remote into and manage user computer it's used for:
 - Troubleshooting issues
 - Installing Software
 - Configuring settings
