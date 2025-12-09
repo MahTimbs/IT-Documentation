@@ -9,25 +9,29 @@
 ---
 ## Devices
 - shows everything from all devices, monitor, device onboarding, manage, devices. It shows the **overview** of device info in Intune.
--  .
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Intune/images/41.png?raw=true" height="800" width="600" />
+
 ## Enrollment for Windows Machines
 1. Navigation: **Devices > Enrollment > Windows autopilot > click on Deployment Profiles**
 2. Click on **Create Profile** and select Windows PC
 3. From there fill out all of the required prompts
-- .
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Intune/images/42.png?raw=true" height="800" width="600" />
+
 ## Configuration
 - **Configurations** → Create → New policy (**Windows 10 and later**) →
     
 - **Profile type (Templates name: Device Restrictions)** →
     
 - **Select the Restrictions you want the devices to have and go through the prompts** 
-- .
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Intune/images/43.png?raw=true" height="800" width="600" />
+
 ## Compliance
 - Compliance refers to the process of ensuring that devices should meet specific security and configuration requirements before they can access corporate resources.
 1. **Manage Devices > Compliance > Create Policy**
 Picture
 2. Go through and fill out the prompts choosing which compliance settings you wish to implement
-3. Picture
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Intune/images/44.png?raw=true" height="800" width="600" />
+
 
 ## Compliance Policies
 - **These define the security requirements that devices must meet.**
@@ -39,7 +43,8 @@ Picture
     - Require a **specific OS version (Windows 10/11)**
         
     - Ensure **anti-virus/anti-malware is enabled**
-picture
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Intune/images/45.png?raw=true" height="800" width="600" />
+
 
 ## Windows Updates
 **Manage updates > Windows updates > Upate rings**
