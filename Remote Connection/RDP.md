@@ -9,6 +9,9 @@ Common uses:
 ## Pre-Connection
 1. Make sure both computers can ping each other (you may need to temporaily disable the firewall to do so)
 2. Make sure they are both on the same network
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Remote%20Connection/images/RDP1.png?raw=true" height="800" width="600" />
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Remote%20Connection/images/RDP2.png?raw=true" height="800" width="600" />
+
 ## Enabling Remote Connections
 1. Right click on **This PC**, and click on **Properties**
 2. Go to the **About** tab (on Windows 10) and click on **Advanced System Settings**
