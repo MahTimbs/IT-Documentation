@@ -4,10 +4,10 @@
 Common uses:
 - Troubleshooting problems
 - Configuring systems
-- Conduct Admininstrative tasks
+- Conduct Administrative tasks
 ---
 ## Pre-Connection
-1. Make sure both computers can ping each other (you may need to temporaily disable the firewall to do so)
+1. Make sure both computers can ping each other (you may need to temporarily disable the firewall to do so)
 2. Make sure they are both on the same network
 <img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Remote%20Connection/Images/RDP1.png?raw=true" height="800" width="600" />
 <img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Remote%20Connection/Images/RDP2.png?raw=true" height="800" width="600" />
