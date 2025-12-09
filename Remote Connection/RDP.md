@@ -17,12 +17,20 @@ Common uses:
 2. Go to the **About** tab (on Windows 10) and click on **Advanced System Settings**
 3. After you login with an account with admin permissions, go to the **Remote Tab** and enable RDP if necessary.
 4. You can also add additional accounts that can utulize RDP to this computer.
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Remote%20Connection/Images/RDP7.png?raw=true" height="800" width="600" />
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Remote%20Connection/Images/RDP8.png?raw=true" height="800" width="600" />
+
 ---
 ## Using RDP
 1. Simply search for **Remote Desktop Connection**
 2. Enter in the **name** or **IP address** of the computer you wish to login to
-3. Simply follow through with the prompts
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Remote%20Connection/Images/RDP3.png?raw=true" height="800" width="600" />
+
+4. Simply follow through with the prompts
 - You may be asked to disconnect the other user if they are logged in
 - The other user has to accept this
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Remote%20Connection/Images/RDP4.png?raw=true" height="800" width="600" />
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Remote%20Connection/Images/RDP5.png?raw=true" height="800" width="600" />
+
 --- 
 
