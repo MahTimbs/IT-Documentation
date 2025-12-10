@@ -28,7 +28,7 @@ Creating a scope:
 
 
 ## Adding Exclusions
-1. You can either exclude a range of address or a singular address (you do this by simply adding the desired dress in the **Start IP adress** box)
+1. You can either exclude a range of address or a singular address (you do this by simply adding the desired adress in the **Start IP adress** box)
 <img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Networking/images/DHCP5.png?raw=true" height="800" width="600" />
 
 
