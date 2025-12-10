@@ -16,7 +16,7 @@ A DHCP Server is a device (usually a router or Windows Server) that manages IP a
 <img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Networking/images/DHCP2.png?raw=true" height="800" width="600" />
 
 ## Using DHCP
-Go to **Tools** and click on **DHCP**
+- Go to **Tools** and click on **DHCP**
 <img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Networking/images/DHCP3.png?raw=true" height="800" width="600" />
 
 
