@@ -12,7 +12,7 @@ A DHCP Server is a device (usually a router or Windows Server) that manages IP a
 6. Click **Install**
 <img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Networking/images/DHCP1.png?raw=true" height="800" width="600" />
 
-8. Go to **Flag icon** → **Post-deployment Configuration** → **Complete DHCP Configuration**
+7. Go to **Flag icon** → **Post-deployment Configuration** → **Complete DHCP Configuration**
 <img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Networking/images/DHCP2.png?raw=true" height="800" width="600" />
 
 ## Using DHCP
