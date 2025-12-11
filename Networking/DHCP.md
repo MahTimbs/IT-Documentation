@@ -2,7 +2,7 @@
 DHCP or Dynamic Host Configuration Protocol is the protocol that automatically assigns IP addresses and other network settings (the subnet mask, default gateway, and DNS) to devices on a network.
 
 ## DHCP Server
-A DHCP Server is a device (usually a router or Windows Server) that manages IP address allocation dynamically. Instead of manually assinging stati IP addresses to every device, the DHCP server automatically provides them based on predefined rules. 
+A DHCP Server is a device (usually a router or Windows Server) that manages IP address allocation dynamically. Instead of manually assinging static IP addresses to every device, the DHCP server automatically provides them based on predefined rules. 
 
 ## Installing DHCP
 1. Go to **Server Manager** → **Manage** (click on it) → **Add Roles & Features**  
