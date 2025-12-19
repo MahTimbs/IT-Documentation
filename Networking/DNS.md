@@ -12,12 +12,15 @@ A DNS Server is a computer or network device that stores and manages domain name
 5. **Server Selection** → **Next**  
 6. **Server Roles** (click on **DNS Server**) → Add role and click **Next**  
 7. Click **Next** and **Install**
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Networking/images/dns1.png?raw=true" height="800" width="600" />
+
 
 ## Navigating to DNS Zones
 1. Navigate to **Tools** on the Server Manager and click on **DNS**  
 2. Under **STLab**, expand →  
    - **Forward Lookup Zones**  
    - **Reverse Lookup Zones**
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Networking/images/dns2.png?raw=true" height="800" width="600" />
 
 ## Forward Lookup Zones (FLZ)
 
@@ -36,6 +39,8 @@ A DNS Server is a computer or network device that stores and manages domain name
 2. **Zone Type** → Select **Primary Zone**, uncheck **Store the zone in Active Directory** → **Next**
 3. **Zone Name**: `SamuelT.com` → **Zone File** (leave as default) → **Next**
 4. **Dynamic Update**: Select **Do not allow** → **Finish**
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Networking/images/dns4.png?raw=true" height="800" width="600" />
+
 
 ## Reverse Lookup Zone
 
@@ -45,15 +50,21 @@ A DNS Server is a computer or network device that stores and manages domain name
 4. Choose **IPv4 Reverse Lookup Zone** → **Next**
 5. **Network ID**: `10.0.0` → **Next**
 6. Select **Do not allow dynamic updates** → **Next** → **Finish**
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Networking/images/dns5.png?raw=true" height="800" width="600" />
+
 
 ## Creating a New Host (Forward Lookup Zone)
 
 1. Right-click on the zone (`SamuelT.com`) → **New Host (A or AAAA)**  
 2. Enter **Name**: `Test`  
 3. Enter **IP Address**: `10.0.0.20` (or any IP address for your organization)
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Networking/images/dns6.png?raw=true" height="800" width="600" />
+
 
 ## Creating a PTR Record (Reverse Lookup Zone)
 
 1. Right-click on the reverse zone → **New Pointer**
 2. Enter **Host Name** → **Browse**  
 3. Navigate: `STLab` → `Forward Lookup` → `Test` (click on it) → **OK**
+ <img src="https://github.com/MahTimbs/IT-Documentation/blob/main/Networking/images/dns7.png?raw=true" height="800" width="600" />
+
