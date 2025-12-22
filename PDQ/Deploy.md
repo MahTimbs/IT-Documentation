@@ -8,8 +8,6 @@ You can see it as your "remote software installer."
 Instead of going from PC to PC, you send out one command and PDQ takes care of the rest.
 As a  Helpdesk I might approval from management to install software application to client machine silently without interrupting their work.
 
-![Screenshot](images/screenshot412.jpg)
-
 ---
 ## What Does It Do?
 
@@ -26,7 +24,8 @@ As a  Helpdesk I might approval from management to install software application 
   - All schedules
   - Retry queue
   - Package Library
-![Screenshot](images/screenshot307.jpg)
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/PDQ/images/PDQ1.png?raw=true" height="800" width="600" />
+
 ### Package Library
 - This is where all the apps are located
 ---
@@ -36,26 +35,32 @@ As a  Helpdesk I might approval from management to install software application 
 - Select the app (in my lab: Zoom)
 - Right-click the app → Select **Download Selected**
 - As app downloads, it gets added to local library
-![Screenshot](images/screenshot322.jpg)
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/PDQ/images/PDQ2.png?raw=true" height="800" width="600" />
+
 1. Go to **Package**
 2. Select the app package
 3. Right-click → Select **Deploy Once**
-![Screenshot](images/screenshot323.jpg)
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/PDQ/images/PDQ3.png?raw=true" height="800" width="600" />
+
 4. On the top right, click on **Targets**
 5. Select **Active Directory** → **Computers**
 - As you can see, I have two computers.
 - Since I'm deploying Zoom to Windows Server 2022:
   - Select it
-![Screenshot](images/screenshot324.jpg)
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/PDQ/images/PDQ4.png?raw=true" height="800" width="600" />
+
   - Click on the single arrow →
-![Screenshot](images/screenshot325.jpg)
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/PDQ/images/PDQ5.png?raw=true" height="800" width="600" />
+
   - Click on **OK**
   - Then **Deploy Now**
-![Screenshot](images/screenshot326.jpg)
-![Screenshot](images/screenshot327.jpg)
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/PDQ/images/PDQ6.png?raw=true" height="800" width="600" />
+
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/PDQ/images/PDQ7.png?raw=true" height="800" width="600" />
 
 > Now it's completed and fully deployed to my Server 2022.
-![Screenshot](images/screenshot328.jpg)
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/PDQ/images/PDQ6.png?raw=true" height="800" width="600" />
+
 ## Deploying 7-Zip with PDQ Deploy on Windows Server 2022
 
 ### Deployment Procedure
@@ -67,9 +72,11 @@ As a  Helpdesk I might approval from management to install software application 
 - Use the single arrow → **Server2022**
 - Click **OK**
 - Click **Deploy Now**
-![Screenshot](images/screenshot329.jpg)
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/PDQ/images/PDQ9.png?raw=true" height="800" width="600" />
+
 - Deployment finished
-![Screenshot](images/screenshot330.jpg)
+<img src="https://github.com/MahTimbs/IT-Documentation/blob/main/PDQ/images/PDQ10.png?raw=true" height="800" width="600" />
+
 ---
 > **Note:**  
 > This process allows IT administrators or helpdesk to deploy applications on the back-end without interrupting the users.
