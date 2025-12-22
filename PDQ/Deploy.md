@@ -17,19 +17,7 @@ As a  Helpdesk I might approval from management to install software application 
 - Updates software and deploys custom scripts
 - Schedules deployments (e.g. install at night)
 ---
-## Setting up PDQ Deploy on Server 2022 (My Lab Environment)
 
-- My Windows Server 2022 has a static IP.  
-  In order to download PDQ, I had to change it to a dynamic IP address.
-![Screenshot](images/screenshot413.jpg)
-### Steps:
-1. Navigate to **Control Panel** → **Network** → **Change Adapter Settings**
-2. Go to PDQ official website
-3.  Sign up for 14-day trial
-4. Fill in my details and verify my email account
-5. Download PDQ Deploy and input the license key
-![Screenshot](images/screenshot303.jpg)
-![Screenshot](images/screenshot306.jpg)
 ## PDQ Dashboard Overview
 
 - The Dashboard shows:
@@ -85,17 +73,6 @@ As a  Helpdesk I might approval from management to install software application 
 ---
 > **Note:**  
 > This process allows IT administrators or helpdesk to deploy applications on the back-end without interrupting the users.
-### Deploying Software
-
-- From the Inventory, you can enter **PDQ Deploy** and deploy software:
-![Screenshot](images/screenshot379.jpg)
-  - Tools → Deploy Package
-![Screenshot](images/screenshot380.jpg)
-  - Example: Deploying packages like **7-Zip** and **Zoom**
-- Check target → Select time to deploy (etc.) → Deploy Now
-![Screenshot](images/screenshot381.jpg)
-- Package is then deployed successfully
+sfully
 - On the lab/test machine, you can see the two apps installed silently on it
 - This is how applications are installed on a client machine silently without disturbing them
-![Screenshot](images/screenshot382.jpg)
-![Screenshot](images/screenshot383.jpg)
